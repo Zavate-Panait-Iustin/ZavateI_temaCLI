@@ -1,0 +1,26 @@
+1.Ce este un viewport? 
+*Viewport-ul în OpenGL este zona ferestrei în care se desenează scena, definită cu functia glViewport.
+
+2.Ce reprezintă frames per second în OpenGL? 
+*FPS măsoară câte cadre sunt randate pe secundă și reflectă fluiditatea scenei. OpenGL nu gestionează direct FPS-ul.
+
+3.Când este rulată metoda OnUpdateFrame? 
+*Se execută înainte de randarea fiecărui cadru pentru a actualiza starea scenei, cum ar fi mișcarea și fizica.
+
+4.Ce este modul imediat de randare? 
+*Este o metodă veche de trimitere a fiecărui vârf individual către GPU, folosind functiile glBegin și glEnd, dar nu este eficientă pentru aplicații moderne.
+
+5.Ultima versiune de OpenGL care acceptă modul imediat? 
+*Modul imediat a fost depășit începând cu OpenGL 3.0, dar este disponibil până la versiunea 4.x în Compatibility Profile.
+
+6.Când este rulată metoda OnRenderFrame? 
+*Se execută la fiecare cadru pentru a desena scena pe ecran.
+
+7.De ce trebuie metoda OnResize să fie rulată cel puțin o dată? 
+*Este necesară pentru a ajusta viewport-ul și matricea de proiecție în funcție de dimensiunea ferestrei, prevenind distorsiunile.
+
+8.Ce reprezintă parametrii CreatePerspectiveFieldOfView și care sunt domeniile lor?
+*fieldOfViewY: unghiul câmpului vizual, între 45 și 90 de grade
+aspectRatio: raportul dintre lățimea și înălțimea ferestrei
+nearPlaneDistance: distanța până la planul apropiat, mai mare decât zero
+farPlaneDistance: distanța până la planul îndepărtat, mai mare decât nearPlane
