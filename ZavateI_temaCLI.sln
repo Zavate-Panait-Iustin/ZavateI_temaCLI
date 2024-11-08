@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema_4", "tema_4\tema_4.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema_5", "tema_5\tema_5.csproj", "{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGL_conn_ImmediateMode", "OpenGL_conn_ImmediateMode\OpenGL_conn_ImmediateMode.csproj", "{120F03FF-956F-49DF-9AFE-D4AC0BC7BFFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{120F03FF-956F-49DF-9AFE-D4AC0BC7BFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{120F03FF-956F-49DF-9AFE-D4AC0BC7BFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{120F03FF-956F-49DF-9AFE-D4AC0BC7BFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{120F03FF-956F-49DF-9AFE-D4AC0BC7BFFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
