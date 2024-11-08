@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZavateI_temaCLI", "ZavateI_temaCLI\ZavateI_temaCLI.csproj", "{77F4A202-E5B1-4784-B25A-E913F9A1F513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema_4", "tema_4\tema_4.csproj", "{CA7B593D-9C04-4805-BDDB-6E1245C19905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tema_5", "tema_5\tema_5.csproj", "{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F4A202-E5B1-4784-B25A-E913F9A1F513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F4A202-E5B1-4784-B25A-E913F9A1F513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F4A202-E5B1-4784-B25A-E913F9A1F513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F4A202-E5B1-4784-B25A-E913F9A1F513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA7B593D-9C04-4805-BDDB-6E1245C19905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7B593D-9C04-4805-BDDB-6E1245C19905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7B593D-9C04-4805-BDDB-6E1245C19905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7B593D-9C04-4805-BDDB-6E1245C19905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3401DC4F-5006-44CE-A0D4-C139ED0E98FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F63F49FA-4ED6-4BD2-A27B-69E948F44A73}
+	EndGlobalSection
+EndGlobal
